@@ -1,0 +1,32 @@
+{
+	"name": "PixelTube",
+	"description": "A plugin for PixelTube, a YouTube to PeerTube bridge service that archives and redistributes video content via ActivityPub",
+	"author": "Stefan Cruz",
+	"authorUrl": "",
+	"platformUrl": "https://pixeltube.org",
+	"sourceUrl": "https://stefancruz.github.io/grayjay-plugin-pixeltube/PixelTubeConfig.json",
+	"repositoryUrl": "https://github.com/stefancruz/grayjay-plugin-pixeltube",
+	"scriptUrl": "./PixelTubeScript.js",
+	"version": 1,
+	"iconUrl": "./PixelTubeIcon.png",
+	"id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+	"scriptSignature": "G2m8icLFbogcZxbaO/xDwAlU+fvpNUkJXcMbjuAMp61T/bPOAP/HwbgdiwR/7H7vB8hEnVDxmxEOenhso7Nq2bRbVmm3X7vSRK6GRutIBZkU8spdbsDjxHIPFhyLKwq8LiL5JZGOAwKW/KoF+8Bc9q2FEqlYAUuNaVAJNKzMBvX5Y0Ku4PwoZrOPzPZHh1WDp0IwHy22MsY1w4+P+Fv+b8VPf1qg9U37MJO43TP/uP0Gh20Fj7fMkrQFzawW/hGZFq53HEQuZRLPGJ4UE9ahrBYAapkdc0FlkRG0PMbKVdI8lAPUckg5b4rt4qqzbkbnkY0Z7nv8MX+JrfOIjKj2GQ==",
+	"scriptPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs5shGUhmdmWJtDag0oDSV8KiCvAOmXBOxAVzWQs4uxLJ7IG6p99YlyTHnEi3B1VuIhUz/FcSkL7g/f20JQweNLTCOGlUR44+5dbaP8ZlfdbAmXYwie7nNKJX6rnXw+G9u9QQ1DBQZttIlX+d6acwldAqftVA+GUiN5uHWgtAHnFkTNZMSF3h4vq1ucJdF1CpWcPRW74/S4r841Afs29CAICtcduDoTaX4v4b/wrzDw0coYaEwlk2Gb8rRuD7ZV7G+Df1yZtFWhnMB7VhiHGxxIqoVEFoTZ5/FNhw0HAiMlWPowxInm/zwyI0HunDFB3gwilsPBtnA1WvOvbChVh5fQIDAQAB",
+	"packages": [
+		"Http"
+	],
+	"allowEval": false,
+	"allowUrls": [
+		"pixeltube.org"
+	],
+	"settings": [],
+	"changelog": {
+		"1": [
+			"Initial release",
+			"Support for browsing videos and channels",
+			"Search functionality",
+			"Channel content browsing",
+			"Content recommendations"
+		]
+	}
+}
